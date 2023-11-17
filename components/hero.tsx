@@ -29,7 +29,10 @@ export default function Hero({ className, ...props }: CardProps) {
               {siteConfig.name}
             </CardTitle>
             <CardDescription>
-              {siteConfig.description}
+              {siteConfig.description} @ 
+              <Link href={siteConfig.links.company} target="_blank" rel="noopener noreferrer" className="hover:underline">
+                {siteConfig.company}
+              </Link>
             </CardDescription>
           </div>
         </div>
@@ -46,7 +49,7 @@ export default function Hero({ className, ...props }: CardProps) {
         <Button variant="secondary">
           <Link href={siteConfig.links.cv} target="_blank" rel="noopener noreferrer">
             <div className="flex gap-2">
-              <DownloadIcon className="h-5 w-4"/> CV
+              <DownloadIcon className="h-5 w-4"/> Resume
             </div>
           </Link> 
         </Button>
