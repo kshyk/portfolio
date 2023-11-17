@@ -1,0 +1,199 @@
+{
+  "main": {
+    "name": {
+        "first": "Bob",
+        "last": "Ross"
+    },
+    "logo": true,
+    "titles": [
+        "Famous Painter.",
+        "Television Host.",
+        "America's Sweetheart."
+    ],
+    "headings": {
+      "about": "About",
+      "skills": "Skills",
+      "portfolio": "Portfolio",
+      "contact": "Contact"
+    }
+  },
+    "about": {
+      "bio": "I discovered oil painting while I was enlisted in the U.S. Air Force in Alaska in the early 1960s. I studied the 'wet-on-wet' technique, also known as 'Alla Prima', used by other great painters such as Rembrandt & Monet. This allowed me to produce complete paintings in less than an hour. I then became an art instructor, creating my iconic image and eventually teaching a TV audience of millions on the TV show The Joy of Painting.",
+      "tagline": "We don't make mistakes, just happy little accidents",
+      "facts": [
+        {"name": "Hometown",
+        "value": "Orlando, FL"
+        },
+        {"name": "Painting Technique",
+        "value": "Alla Prima"
+        },
+        {"name": "# of Paintings",
+        "value": "1,143"
+        },
+        {"name": "Sun Sign",
+          "value": "Scorpio"
+        }
+      ]
+    },
+    "skills": {
+    "defaultCategory": "Painting",
+    
+    "categories": [
+      {
+        "category": "Painting",
+        "subtitle": "My true passion!",
+        "faClass": "fas fa-paint-brush",        
+        "skillList":[
+          {
+            "name": "Oil Painting",
+            "level": "100"
+          },
+          {
+            "name": "Watercolor",
+            "level": "90"
+          },
+          
+          {
+            "name": "Acrylic",
+            "level": "70"
+          },
+          {
+            "name": "Pastels",
+            "level": "60"
+          }
+        ]
+      },
+
+      {
+        "category": "Teaching",
+        "subtitle": "",
+        "faClass": "fas fa-chalkboard-teacher",        
+        "skillList":[
+          {
+            "name": "Communication",
+            "level": "90"
+          },
+          
+          {
+            "name": "Patience",
+            "level": "100"
+          },
+          {
+            "name": "Leadership",
+            "level": "90"
+          }
+        ]
+      }
+    ]
+  },
+"portfolio": {
+  "defaultFilter": "mountains",
+  "projects": [
+    {
+      "title": "Peaceful Valley",
+      "description": "S1E8",
+      "image": "peacefulvalley.png",
+      "link": "https://www.twoinchbrush.com/painting/peaceful-valley",
+      "source": "https://www.twoinchbrush.com/painting/peaceful-valley",
+      "filter": "mountains"
+        },
+    {
+      "title": "Meadow Lake",
+      "description": "S2E1",
+      "image": "meadowlake.png",
+      "link": "https://www.twoinchbrush.com/painting/meadow-lake",
+      "source": "https://www.twoinchbrush.com/painting/meadow-lake",
+      "filter": "mountains"
+    },
+    {
+      "title": "Final Grace",
+      "description": "S2E13",
+      "image": "finalgrace.png",
+      "link": "https://www.twoinchbrush.com/painting/final-grace",
+      "source": "https://www.twoinchbrush.com/painting/final-grace",
+      "filter": "mountains"
+    },
+    {
+      "title": "Purple Splendor",
+      "description": "S4E1",
+      "image": "purplesplendor.png",
+      "link": "https://www.twoinchbrush.com/painting/purple-splendor",
+      "source": "https://www.twoinchbrush.com/painting/purple-splendor",
+      "filter": "snow"
+    },
+    {
+      "title": "Winter Stillness",
+      "description": "S5E4",
+      "image": "winterstillness.png",
+      "link": "https://www.twoinchbrush.com/painting/winter-stillness",
+      "source": "https://www.twoinchbrush.com/painting/winter-stillness",
+      "filter": "snow"
+    },
+    {
+      "title": "Grey Winter",
+      "description": "S7E11",
+      "image": "greywinter.png",
+      "link": "https://www.twoinchbrush.com/painting/grey-winter",
+      "source": "https://www.twoinchbrush.com/painting/grey-winter",
+      "filter": "snow"
+    },
+    {
+      "title": "Bubbling Stream",
+      "description": "S3E3",
+      "image": "bubblingstream.png",
+      "link": "https://www.twoinchbrush.com/painting/bubbling-stream",
+      "source": "https://www.twoinchbrush.com/painting/bubbling-stream",
+      "filter": "water"
+    },
+    {
+      "title": "Blaze of Color",
+      "description": "S6E13",
+      "image": "blazeofcolor.png",
+      "link": "https://www.twoinchbrush.com/painting/blaze-of-color",
+      "source": "https://www.twoinchbrush.com/painting/blaze-of-color",
+      "filter": "water"
+    },
+    {
+      "title": "Night Light",
+      "description": "S3E8",
+      "image": "nightlight.png",
+      "link": "https://www.twoinchbrush.com/painting/night-light",
+      "source": "https://www.twoinchbrush.com/painting/night-light",
+      "filter": "water"
+    }
+
+  ]
+},
+    "contact":{
+      "text": "It will be pretty hard to reach me, probably.",
+      "formTitle": "Send Me A Message",
+      "formEndPoint": "",
+      "city": "Orlando, Florida",
+      "email": "info@bobross.com",
+      "phone": "1-800-BOB-ROSS",
+      "resumeLink": "https://www.twoinchbrush.com/all-paintings",
+      "form": true,
+      
+      "social": [
+          {
+            "name": "twitter",
+            "url": "https://twitter.com/bobrossofficial",
+            "faClass": "fab fa-twitter"
+          },
+          {
+            "name": "facebook",
+            "url": "https://www.facebook.com/TheJoyofPaintingWithBobRoss/",
+            "faClass": "fab fa-facebook-f"
+          },
+          {
+            "name": "instagram",
+            "url": "https://www.instagram.com/bobross_thejoyofpainting/",
+            "faClass": "fab fa-instagram"
+          }
+        ]
+      },
+  "footer": {
+    "copyrightText": "All Rights Reserved."
+  }
+
+}
