@@ -6,10 +6,10 @@ export default function Footer() {
           © {new Date().getFullYear()}{" "}
           <a
             target="_blank"
-            href="https://sinnedpenguin.me/"
+            href="https://github.com/kshyk"
             className="hover:underline"
           >
-            sinnedpenguin
+            kshyk
           </a>
           . All Rights Reserved.
         </span>
