@@ -1,0 +1,15 @@
+{
+  "technologies": [
+    { "name": "TypeScript", "icon": "typescript" },
+    { "name": "JavaScript", "icon": "javascript" },
+    { "name": "Java", "icon": "java" },
+    { "name": "Bootstrap", "icon": "bootstrap" },
+    { "name": "MySQL", "icon": "mysql" },
+    { "name": "Firebase", "icon": "firebase" }
+  ],
+  "tools": [
+    { "name": "Git", "icon": "git" },
+    { "name": "GitHub", "icon": "github" },
+    { "name": "Linux", "icon": "linux" }
+  ]
+}

@@ -1,0 +1,13 @@
+[
+  {
+    "name": "TBD Title",
+    "description": "TBD Description",
+    "repository": "https://github.com/kshyk/portfolio",
+    "demo": "https://github.com/kshyk/portfolio",
+    "technologies": [
+      { "name": "TypeScript", "icon": "typescript" },
+      { "name": "JavaScript", "icon": "javascript" },
+      { "name": "Tailwind CSS", "icon": "tailwindcss" }
+    ]
+  }
+]

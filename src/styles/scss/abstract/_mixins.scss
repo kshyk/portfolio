@@ -1,7 +1,0 @@
-@mixin section-color($background, $foreground) {
-  background-color: $background;
-  color: $foreground;
-  a {
-    color: $grey-color;
-  }
-}
