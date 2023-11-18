@@ -1,15 +1,39 @@
 {
   "technologies": [
-    { "name": "TypeScript", "icon": "typescript" },
     { "name": "JavaScript", "icon": "javascript" },
+    { "name": "TypeScript", "icon": "typescript" },
     { "name": "Java", "icon": "java" },
+    { "name": "Python", "icon": "python" },
+    { "name": "Swift", "icon": "swift" },
+    { "name": "Kotlin", "icon": "kotlin" },
+    { "name": "GNU Bash", "icon": "gnubash" },
     { "name": "Bootstrap", "icon": "bootstrap" },
+    { "name": "ESLint", "icon": "eslint" },
+    { "name": "Prettier", "icon": "prettier" },
+    { "name": "Markdown", "icon": "markdown" },
     { "name": "MySQL", "icon": "mysql" },
-    { "name": "Firebase", "icon": "firebase" }
+    { "name": "PostgreSQL", "icon": "postgresql" },
+    { "name": "JUnit5", "icon": "junit5" },
+    { "name": "Selenium", "icon": "selenium" },
+    { "name": "Cypress", "icon": "cypress" },
+    { "name": "TestCafe", "icon": "testcafe" },
+    { "name": "WebdriverIO", "icon": "webdriverio" },
+    { "name": "Firebase", "icon": "firebase" },
+    { "name": "GitHub Actions", "icon": "githubactions" },
+    { "name": "Apache Groovy", "icon": "apachegroovy" },
+    { "name": "Amazon AWS", "icon": "amazonaws" },
+    { "name": "Docker", "icon": "docker" }
   ],
   "tools": [
     { "name": "Git", "icon": "git" },
     { "name": "GitHub", "icon": "github" },
-    { "name": "Linux", "icon": "linux" }
+    { "name": "Jenkins", "icon": "jenkins" },
+    { "name": "Linux", "icon": "linux" },
+    { "name": "Linux Mint", "icon": "linuxmint" },
+    { "name": "Alpine Mint", "icon": "alpinelinux" },
+    { "name": "IntelliJ IDEA", "icon": "intellijidea" },
+    { "name": "Visual Studio Code", "icon": "visualstudiocode" },
+    { "name": "Xcode", "icon": "xcode" },
+    { "name": "Android Studio", "icon": "androidstudio" }
   ]
 }
