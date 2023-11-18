@@ -42,14 +42,7 @@ export default function Hero({ className, ...props }: CardProps) {
         <Button variant="outline">
           <Link href={siteConfig.links.github} target="_blank" rel="noopener noreferrer">
             <div className="flex gap-2">
-              <SimpleIcon icon={"github"} size={20} /> GitHub
-            </div>
-          </Link>
-        </Button>
-        <Button variant="outline">
-          <Link href={siteConfig.links.linkedin} target="_blank" rel="noopener noreferrer">
-            <div className="flex gap-2">
-              <SimpleIcon icon={"linkedin"} size={20} /> LinkedIn
+              <SimpleIcon icon={"github"} size={20} /> GitHub Profile
             </div>
           </Link>
         </Button>

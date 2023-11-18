@@ -16,20 +16,18 @@
     { "name": "JUnit5", "icon": "junit5" },
     { "name": "Selenium", "icon": "selenium" },
     { "name": "Cypress", "icon": "cypress" },
-    { "name": "Playwright", "icon": "playwright" },
     { "name": "TestCafe", "icon": "testcafe" },
     { "name": "WebdriverIO", "icon": "webdriverio" },
     { "name": "Firebase", "icon": "firebase" },
     { "name": "GitHub Actions", "icon": "githubactions" },
-    { "name": "Apache Groovy", "icon": "apachegroovy" }
+    { "name": "Apache Groovy", "icon": "apachegroovy" },
+    { "name": "Amazon AWS", "icon": "amazonaws" },
+    { "name": "Docker", "icon": "docker" }
   ],
   "tools": [
     { "name": "Git", "icon": "git" },
     { "name": "GitHub", "icon": "github" },
-    { "name": "Amazon AWS", "icon": "amazonaws" },
     { "name": "Jenkins", "icon": "jenkins" },
-    { "name": "Docker", "icon": "docker" },
-    { "name": "Atlassian", "icon": "atlassian" },
     { "name": "Linux", "icon": "linux" },
     { "name": "Linux Mint", "icon": "linuxmint" },
     { "name": "Alpine Mint", "icon": "alpinelinux" },

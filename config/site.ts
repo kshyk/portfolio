@@ -4,7 +4,6 @@ export const siteConfig = {
   company: "Beekeeper",
   links: {
     github: "https://github.com/kshyk",
-    linkedin: "https://www.linkedin.com/in/jakub-turkiewicz-39bb5729",
     company: "https://www.beekeeper.io",
     cv: "",
   },
