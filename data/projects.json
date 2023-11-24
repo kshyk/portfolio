@@ -1,9 +1,24 @@
 [
   {
+    "name": "Portfolio",
+    "description": "About me and my projects",
+    "repository": "https://github.com/kshyk/portfolio",
+    "demo": "https://kshyk.github.io/portfolio/",
+    "technologies": [
+      { "name": "TypeScript", "icon": "typescript" },
+      { "name": "JavaScript", "icon": "javascript" },
+      { "name": "Tailwind CSS", "icon": "tailwindcss" },
+      { "name": "ESLint", "icon": "eslint" },
+      { "name": "Prettier", "icon": "prettier" },
+      { "name": "Markdown", "icon": "markdown" },
+      { "name": "GitHub Actions", "icon": "githubactions" }
+    ]
+  },
+  {
     "name": "TBD Title",
     "description": "TBD Description",
-    "repository": "https://github.com/kshyk/portfolio",
-    "demo": "https://github.com/kshyk/portfolio",
+    "repository": "https://github.com/kshyk?tab=repositories",
+    "demo": "https://github.com/kshyk",
     "technologies": [
       { "name": "TypeScript", "icon": "typescript" },
       { "name": "JavaScript", "icon": "javascript" },
