@@ -543,13 +543,6 @@
   resolved "https://registry.yarnpkg.com/@types/scheduler/-/scheduler-0.16.8.tgz#ce5ace04cfeabe7ef87c0091e50752e36707deff"
   integrity sha512-WZLiwShhwLRmeV6zH+GkbOFT6Z6VklCItrDioxUnv+u4Ll+8vKeFySoFyK/0ctcRpOmwAicELfmys1sDc/Rw+A==
 
-"@types/simple-icons@^5.21.1":
-  version "5.21.1"
-  resolved "https://registry.yarnpkg.com/@types/simple-icons/-/simple-icons-5.21.1.tgz#d80b05d50312f841b0bf77d7e3b005fb5ed52091"
-  integrity sha512-exnKcr2DxKe0UsGIjvw/hv88OAWkxwPped5iq7YlgC9flaxAJHHvsjmq45Sr7FYjjyrwJI8VFh85xzY6k+L5WQ==
-  dependencies:
-    simple-icons "*"
-
 "@typescript-eslint/parser@^5.4.2 || ^6.0.0":
   version "6.12.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-6.12.0.tgz#9fb21ed7d88065a4a2ee21eb80b8578debb8217c"
@@ -2562,12 +2555,7 @@ side-channel@^1.0.4:
     get-intrinsic "^1.0.2"
     object-inspect "^1.9.0"
 
-simple-icons@*:
-  version "9.21.0"
-  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-9.21.0.tgz#ab6b0a45bddf45887153ba6f3c5ba3fa26bf5875"
-  integrity sha512-yxjs49nKwff5ozRwPCBVcGG4Ehlg5YiR1g4EJ83zmqc0hYhYb6UQJqiy2WOga2OJ1/qVHaej7q762hYZX/mavA==
-
-simple-icons@^5.16.0:
+simple-icons@^5.24.0:
   version "5.24.0"
   resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-5.24.0.tgz#6485a5713c2e5758605b461b833396c4874e9e4d"
   integrity sha512-wKHeqUBsHYB5KPqdc3e7BGQPQCx/NbHfJuukjo70ABGk6hegjTDSoJhsSEcVadknVG4W3+jcC3G3RbytJnapGQ==
