@@ -16,7 +16,6 @@
     { "name": "JUnit5", "icon": "junit5" },
     { "name": "Selenium", "icon": "selenium" },
     { "name": "Cypress", "icon": "cypress" },
-    { "name": "Playwright", "icon": "playwright" },
     { "name": "TestCafe", "icon": "testcafe" },
     { "name": "WebdriverIO", "icon": "webdriverio" },
     { "name": "Firebase", "icon": "firebase" },
@@ -37,7 +36,6 @@
     { "name": "IntelliJ IDEA", "icon": "intellijidea" },
     { "name": "Visual Studio Code", "icon": "visualstudiocode" },
     { "name": "Xcode", "icon": "xcode" },
-    { "name": "Android Studio", "icon": "androidstudio" },
-    { "name": "RenovateBot", "icon": "renovatebot"}
+    { "name": "Android Studio", "icon": "androidstudio" }
   ]
 }
