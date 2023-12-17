@@ -19,15 +19,17 @@
     { "name": "TestCafe", "icon": "testcafe" },
     { "name": "WebdriverIO", "icon": "webdriverio" },
     { "name": "Firebase", "icon": "firebase" },
-    { "name": "GitHub Actions", "icon": "githubactions" },
+    { "name": "Gradle", "icon": "gradle" },
     { "name": "Apache Groovy", "icon": "apachegroovy" },
+    { "name": "GitHub Actions", "icon": "githubactions" },
     { "name": "Amazon AWS", "icon": "amazonaws" },
-    { "name": "Docker", "icon": "docker" }
+    { "name": "Docker", "icon": "docker" },
+    { "name": "Git", "icon": "git" }
   ],
   "tools": [
-    { "name": "Git", "icon": "git" },
     { "name": "GitHub", "icon": "github" },
     { "name": "Jenkins", "icon": "jenkins" },
+    { "name": "SonarCloud", "icon": "sonarcloud" },
     { "name": "Linux", "icon": "linux" },
     { "name": "Linux Mint", "icon": "linuxmint" },
     { "name": "Alpine Mint", "icon": "alpinelinux" },
