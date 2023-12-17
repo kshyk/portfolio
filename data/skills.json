@@ -13,7 +13,7 @@
     { "name": "Markdown", "icon": "markdown" },
     { "name": "MySQL", "icon": "mysql" },
     { "name": "PostgreSQL", "icon": "postgresql" },
-    { "name": "JUnit 5", "icon": "junit5" },
+    { "name": "JUnit5", "icon": "junit5" },
     { "name": "Selenium", "icon": "selenium" },
     { "name": "Cypress", "icon": "cypress" },
     { "name": "Playwright", "icon": "playwright" },

@@ -21,7 +21,7 @@
     "demo": "https://github.com/kshyk/api-tests/actions/workflows/main.yml",
     "technologies": [
       { "name": "Java", "icon": "java" },
-      { "name": "JUnit 5", "icon": "junit5" },
+      { "name": "JUnit5", "icon": "junit5" },
       { "name": "Gradle", "icon": "gradle" },
       { "name": "Markdown", "icon": "markdown" },
       { "name": "GitHub Actions", "icon": "githubactions" }
