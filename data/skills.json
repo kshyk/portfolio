@@ -13,27 +13,31 @@
     { "name": "Markdown", "icon": "markdown" },
     { "name": "MySQL", "icon": "mysql" },
     { "name": "PostgreSQL", "icon": "postgresql" },
-    { "name": "JUnit5", "icon": "junit5" },
+    { "name": "JUnit 5", "icon": "junit5" },
     { "name": "Selenium", "icon": "selenium" },
     { "name": "Cypress", "icon": "cypress" },
+    { "name": "Playwright", "icon": "playwright" },
     { "name": "TestCafe", "icon": "testcafe" },
     { "name": "WebdriverIO", "icon": "webdriverio" },
     { "name": "Firebase", "icon": "firebase" },
-    { "name": "GitHub Actions", "icon": "githubactions" },
+    { "name": "Gradle", "icon": "gradle" },
     { "name": "Apache Groovy", "icon": "apachegroovy" },
+    { "name": "GitHub Actions", "icon": "githubactions" },
     { "name": "Amazon AWS", "icon": "amazonaws" },
-    { "name": "Docker", "icon": "docker" }
+    { "name": "Docker", "icon": "docker" },
+    { "name": "Git", "icon": "git" }
   ],
   "tools": [
-    { "name": "Git", "icon": "git" },
     { "name": "GitHub", "icon": "github" },
     { "name": "Jenkins", "icon": "jenkins" },
+    { "name": "SonarCloud", "icon": "sonarcloud" },
     { "name": "Linux", "icon": "linux" },
     { "name": "Linux Mint", "icon": "linuxmint" },
     { "name": "Alpine Mint", "icon": "alpinelinux" },
     { "name": "IntelliJ IDEA", "icon": "intellijidea" },
     { "name": "Visual Studio Code", "icon": "visualstudiocode" },
     { "name": "Xcode", "icon": "xcode" },
-    { "name": "Android Studio", "icon": "androidstudio" }
+    { "name": "Android Studio", "icon": "androidstudio" },
+    { "name": "RenovateBot", "icon": "renovatebot"}
   ]
 }

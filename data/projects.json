@@ -15,14 +15,16 @@
     ]
   },
   {
-    "name": "TBD Title",
-    "description": "TBD Description",
-    "repository": "https://github.com/kshyk?tab=repositories",
-    "demo": "https://github.com/kshyk",
+    "name": "API Tests Framework",
+    "description": "Collection of automated tests for API endpoints",
+    "repository": "https://github.com/kshyk/api-tests",
+    "demo": "https://github.com/kshyk/api-tests/actions/workflows/main.yml",
     "technologies": [
-      { "name": "TypeScript", "icon": "typescript" },
-      { "name": "JavaScript", "icon": "javascript" },
-      { "name": "Tailwind CSS", "icon": "tailwindcss" }
+      { "name": "Java", "icon": "java" },
+      { "name": "JUnit 5", "icon": "junit5" },
+      { "name": "Gradle", "icon": "gradle" },
+      { "name": "Markdown", "icon": "markdown" },
+      { "name": "GitHub Actions", "icon": "githubactions" }
     ]
   }
 ]
