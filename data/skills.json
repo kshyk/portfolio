@@ -30,12 +30,19 @@
     { "name": "GitHub", "icon": "github" },
     { "name": "Jenkins", "icon": "jenkins" },
     { "name": "SonarCloud", "icon": "sonarcloud" },
-    { "name": "Linux", "icon": "linux" },
-    { "name": "Linux Mint", "icon": "linuxmint" },
-    { "name": "Alpine Mint", "icon": "alpinelinux" },
     { "name": "IntelliJ IDEA", "icon": "intellijidea" },
     { "name": "Visual Studio Code", "icon": "visualstudiocode" },
     { "name": "Xcode", "icon": "xcode" },
     { "name": "Android Studio", "icon": "androidstudio" }
+  ],
+  "os": [
+    { "name": "macOS", "icon": "macos" },
+    { "name": "Linux", "icon": "linux" },
+    { "name": "Linux Mint", "icon": "linuxmint" },
+    { "name": "Ubuntu", "icon": "ubuntu" },
+    { "name": "Alpine Mint", "icon": "alpinelinux" },
+    { "name": "Windows", "icon": "windows" },
+    { "name": "iOS", "icon": "ios" },
+    { "name": "Android", "icon": "android" }
   ]
 }

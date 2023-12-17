@@ -11,10 +11,11 @@ interface Skill {
 interface SkillsData {
   technologies: Skill[];
   tools: Skill[];
+  os: Skill[];
 }
 
 export default function Skills() {
-  const { technologies, tools } = skillsData as SkillsData;
+  const { technologies, tools, os } = skillsData as SkillsData;
 
   return (
     <div className="w-full mx-auto md:w-[40vw]">
@@ -42,6 +43,17 @@ export default function Skills() {
             <div key={tool.name} className="flex flex-col items-center">
               <SimpleIcon icon={tool.icon} size={24} />
               <p className="text-sm text-muted-foreground mt-2">{tool.name}</p>
+            </div>
+          ))}
+        </CardContent>
+        <CardHeader className="p-0 pb-6 px-6">
+            <CardTitle>OS</CardTitle>
+        </CardHeader>
+        <CardContent className="gap-4 flex justify-center flex-wrap min-h-0">
+          {os.map((system) => (
+            <div key={system.name} className="flex flex-col items-center">
+              <SimpleIcon icon={system.icon} size={24} />
+              <p className="text-sm text-muted-foreground mt-2">{system.name}</p>
             </div>
           ))}
         </CardContent>
