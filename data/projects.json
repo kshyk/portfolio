@@ -11,20 +11,59 @@
       { "name": "ESLint", "icon": "eslint" },
       { "name": "Prettier", "icon": "prettier" },
       { "name": "Markdown", "icon": "markdown" },
-      { "name": "GitHub Actions", "icon": "githubactions" }
+      { "name": "Yarn", "icon": "yarn" },
+      { "name": "Git", "icon": "git" },
+      { "name": "GitHub Actions", "icon": "githubactions" },
+      { "name": "Renovate", "icon": "renovatebot" }
     ]
   },
   {
-    "name": "API Tests Framework",
-    "description": "Collection of automated tests for API endpoints",
+    "name": "API Testing Framework",
+    "description": "Collection of automated tests for API endpoints using REST Assured framework",
     "repository": "https://github.com/kshyk/api-tests",
     "demo": "https://github.com/kshyk/api-tests/actions/workflows/main.yml",
     "technologies": [
       { "name": "Java", "icon": "java" },
       { "name": "JUnit5", "icon": "junit5" },
-      { "name": "Gradle", "icon": "gradle" },
       { "name": "Markdown", "icon": "markdown" },
-      { "name": "GitHub Actions", "icon": "githubactions" }
+      { "name": "Gradle", "icon": "gradle" },
+      { "name": "Git", "icon": "git" },
+      { "name": "GitHub Actions", "icon": "githubactions" },
+      { "name": "Renovate", "icon": "renovatebot" }
+    ]
+  },
+  {
+    "name": "Cypress Testing Framework",
+    "description": "Collection of automated tests for web applications using CypressIO framework",
+    "repository": "https://github.com/kshyk/cypress-fw",
+    "demo": "https://github.com/kshyk/cypress-fw/actions/workflows/main.yml",
+    "technologies": [
+      { "name": "TypeScript", "icon": "typescript" },
+      { "name": "Cypress", "icon": "cypress" },
+      { "name": "ESLint", "icon": "eslint" },
+      { "name": "Prettier", "icon": "prettier" },
+      { "name": "Markdown", "icon": "markdown" },
+      { "name": "Yarn", "icon": "yarn" },
+      { "name": "Git", "icon": "git" },
+      { "name": "GitHub Actions", "icon": "githubactions" },
+      { "name": "Renovate", "icon": "renovatebot" }
+    ]
+  },
+
+  {
+    "name": "Playwright Testing Framework",
+    "description": "Collection of automated tests for web applications using MS Playwright framework",
+    "repository": "https://github.com/kshyk/playwright-fw",
+    "demo": "https://github.com/kshyk/playwright-fw/actions/workflows/main.yml",
+    "technologies": [
+      { "name": "TypeScript", "icon": "typescript" },
+      { "name": "ESLint", "icon": "eslint" },
+      { "name": "Prettier", "icon": "prettier" },
+      { "name": "Markdown", "icon": "markdown" },
+      { "name": "Yarn", "icon": "yarn" },
+      { "name": "Git", "icon": "git" },
+      { "name": "GitHub Actions", "icon": "githubactions" },
+      { "name": "Renovate", "icon": "renovatebot" }
     ]
   }
 ]
