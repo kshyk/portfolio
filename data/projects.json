@@ -49,7 +49,6 @@
       { "name": "Renovate", "icon": "renovatebot" }
     ]
   },
-
   {
     "name": "Playwright Testing Framework",
     "description": "Collection of automated tests for web applications using MS Playwright framework",
@@ -61,6 +60,22 @@
       { "name": "Prettier", "icon": "prettier" },
       { "name": "Markdown", "icon": "markdown" },
       { "name": "Yarn", "icon": "yarn" },
+      { "name": "Git", "icon": "git" },
+      { "name": "GitHub Actions", "icon": "githubactions" },
+      { "name": "Renovate", "icon": "renovatebot" }
+    ]
+  },
+  {
+    "name": "Selenide Testing Framework",
+    "description": "Collection of automated tests for web applications using Selenide framework",
+    "repository": "https://github.com/kshyk/selenium-fw",
+    "demo": "https://github.com/kshyk/selenium-fw/actions/workflows/main.yml",
+    "technologies": [
+      { "name": "Java", "icon": "java" },
+      { "name": "JUnit5", "icon": "junit5" },
+      { "name": "Selenium", "icon": "selenium" },
+      { "name": "Markdown", "icon": "markdown" },
+      { "name": "Gradle", "icon": "gradle" },
       { "name": "Git", "icon": "git" },
       { "name": "GitHub Actions", "icon": "githubactions" },
       { "name": "Renovate", "icon": "renovatebot" }
