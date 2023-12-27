@@ -1,15 +1,19 @@
 {
-  "technologies": [
+  "languages": [
     { "name": "JavaScript", "icon": "javascript" },
     { "name": "TypeScript", "icon": "typescript" },
     { "name": "Java", "icon": "java" },
     { "name": "Python", "icon": "python" },
     { "name": "Swift", "icon": "swift" },
     { "name": "Kotlin", "icon": "kotlin" },
+    { "name": "Groovy", "icon": "apachegroovy" }
+  ],
+  "technologies": [
     { "name": "GNU Bash", "icon": "gnubash" },
     { "name": "Bootstrap", "icon": "bootstrap" },
     { "name": "ESLint", "icon": "eslint" },
     { "name": "Prettier", "icon": "prettier" },
+    { "name": "Yarn", "icon": "yarn" },
     { "name": "Markdown", "icon": "markdown" },
     { "name": "MySQL", "icon": "mysql" },
     { "name": "PostgreSQL", "icon": "postgresql" },
@@ -20,20 +24,15 @@
     { "name": "WebdriverIO", "icon": "webdriverio" },
     { "name": "Firebase", "icon": "firebase" },
     { "name": "Gradle", "icon": "gradle" },
-    { "name": "Apache Groovy", "icon": "apachegroovy" },
     { "name": "GitHub Actions", "icon": "githubactions" },
     { "name": "Amazon AWS", "icon": "amazonaws" },
     { "name": "Docker", "icon": "docker" },
-    { "name": "Git", "icon": "git" }
-  ],
-  "tools": [
+    { "name": "Git", "icon": "git" },
     { "name": "GitHub", "icon": "github" },
     { "name": "Jenkins", "icon": "jenkins" },
     { "name": "SonarCloud", "icon": "sonarcloud" },
-    { "name": "IntelliJ IDEA", "icon": "intellijidea" },
-    { "name": "Visual Studio Code", "icon": "visualstudiocode" },
-    { "name": "Xcode", "icon": "xcode" },
-    { "name": "Android Studio", "icon": "androidstudio" }
+    { "name": "Renovate", "icon": "renovatebot" },
+    { "name": "Dependabot", "icon": "dependabot" }
   ],
   "os": [
     { "name": "macOS", "icon": "macos" },
@@ -44,5 +43,11 @@
     { "name": "Windows", "icon": "windows" },
     { "name": "iOS", "icon": "ios" },
     { "name": "Android", "icon": "android" }
+  ],
+  "editors": [
+    { "name": "IntelliJ IDEA", "icon": "intellijidea" },
+    { "name": "Visual Studio Code", "icon": "visualstudiocode" },
+    { "name": "Xcode", "icon": "xcode" },
+    { "name": "Android Studio", "icon": "androidstudio" }
   ]
 }
