@@ -80,5 +80,23 @@
       { "name": "GitHub Actions", "icon": "githubactions" },
       { "name": "Renovate", "icon": "renovatebot" }
     ]
+  },
+  {
+    "name": "TestCafe Testing Framework",
+    "description": "Collection of automated tests for web applications using TestCafe framework",
+    "repository": "https://github.com/kshyk/testcafe-fw",
+    "demo": "https://github.com/kshyk/testcafe-fw/actions/workflows/main.yml",
+    "technologies": [
+      { "name": "TypeScript", "icon": "typescript" },
+      { "name": "JavaScript", "icon": "javascript" },
+      { "name": "TestCafe", "icon": "testcafe" },
+      { "name": "ESLint", "icon": "eslint" },
+      { "name": "Prettier", "icon": "prettier" },
+      { "name": "Markdown", "icon": "markdown" },
+      { "name": "Yarn", "icon": "yarn" },
+      { "name": "Git", "icon": "git" },
+      { "name": "GitHub Actions", "icon": "githubactions" },
+      { "name": "Renovate", "icon": "renovatebot" }
+    ]
   }
 ]
