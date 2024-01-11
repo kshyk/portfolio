@@ -56,7 +56,7 @@ export default function Hero({ className, ...props }: CardProps) {
         <Button variant="secondary">
           <Link href={siteConfig.links.cv} target="_blank" rel="noopener noreferrer">
             <div className="flex gap-2">
-              <DownloadIcon className="h-5 w-4"/> Resume
+              <SimpleIcon icon={"canva"} size={20} /> Resume
             </div>
           </Link> 
         </Button>
