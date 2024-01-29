@@ -1,4 +1,4 @@
-import * as icons from '../data/icon-exports';
+import icons from 'simple-icons';
 
 interface Props {
   icon: string;
@@ -9,15 +9,8 @@ interface Props {
 
 export const SimpleIcon = (props: Props): JSX.Element => {
   const { icon, size, color, styles } = props;
-  const iconName = icon?.charAt(0).toUpperCase() + icon?.slice(1);
-  const iconNameSi = `si${iconName}` as keyof typeof icons;
-  const iconElement = icons[iconNameSi];
 
-  if (!iconElement) {
-    return <></>;
-  }
-
-  const { title, path, hex } = iconElement;
+  const { title, path, hex } = icons.Get(icon);
 
   return (
     <svg

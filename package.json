@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "icons": "node ./lib/generate-icons.js",
-    "dev": "yarn icons && next dev",
-    "build": "yarn icons && next build",
-    "start": "yarn icons && next start",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "lint": "next lint",
     "prepare": "husky install"
   },
@@ -27,7 +26,7 @@
     "react": "^18",
     "react-dom": "^18",
     "react-hook-form": "^7.47.0",
-    "simple-icons": "^11.2.0",
+    "simple-icons": "^6.23.0",
     "tailwind-merge": "^2.0.0",
     "tailwindcss-animate": "^1.0.7",
     "zod": "^3.22.4"
