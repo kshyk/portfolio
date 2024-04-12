@@ -2,7 +2,7 @@
   "languages": [
     { "name": "JavaScript", "icon": "javascript" },
     { "name": "TypeScript", "icon": "typescript" },
-    { "name": "Java", "icon": "java" },
+    { "name": "Java", "icon": "openjdk" },
     { "name": "Python", "icon": "python" },
     { "name": "Swift", "icon": "swift" },
     { "name": "Kotlin", "icon": "kotlin" },

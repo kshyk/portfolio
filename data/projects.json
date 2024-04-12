@@ -23,7 +23,7 @@
     "repository": "https://github.com/kshyk/api-tests",
     "demo": "https://github.com/kshyk/api-tests/actions/workflows/main.yml",
     "technologies": [
-      { "name": "Java", "icon": "java" },
+      { "name": "Java", "icon": "openjdk" },
       { "name": "JUnit5", "icon": "junit5" },
       { "name": "Markdown", "icon": "markdown" },
       { "name": "Gradle", "icon": "gradle" },
@@ -71,7 +71,7 @@
     "repository": "https://github.com/kshyk/selenium-fw",
     "demo": "https://github.com/kshyk/selenium-fw/actions/workflows/main.yml",
     "technologies": [
-      { "name": "Java", "icon": "java" },
+      { "name": "Java", "icon": "openjdk" },
       { "name": "JUnit5", "icon": "junit5" },
       { "name": "Selenium", "icon": "selenium" },
       { "name": "Markdown", "icon": "markdown" },
