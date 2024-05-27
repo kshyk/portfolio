@@ -25,7 +25,7 @@
     { "name": "Firebase", "icon": "firebase" },
     { "name": "Gradle", "icon": "gradle" },
     { "name": "GitHub Actions", "icon": "githubactions" },
-    { "name": "Amazon AWS", "icon": "amazonaws" },
+    { "name": "AWS", "icon": "amazonwebservices" },
     { "name": "Docker", "icon": "docker" },
     { "name": "Git", "icon": "git" },
     { "name": "GitHub", "icon": "github" },
