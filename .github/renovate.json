@@ -10,7 +10,12 @@
     {
       "description": "Automerge non-major updates",
       "extends": ["monorepo:ionic-native"],
-      "matchUpdateTypes": ["patch", "minor"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true
+    },
+    {
+      "matchPackageNames": ["lucide-react"],
+      "matchUpdateTypes": ["minor", "patch"],
       "automerge": true
     }
   ]
