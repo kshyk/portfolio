@@ -31,7 +31,7 @@
     { "name": "GitHub", "icon": "github" },
     { "name": "Jenkins", "icon": "jenkins" },
     { "name": "SonarCloud", "icon": "sonarcloud" },
-    { "name": "Renovate", "icon": "renovatebot" },
+    { "name": "Renovate", "icon": "renovate" },
     { "name": "Dependabot", "icon": "dependabot" }
   ],
   "os": [
