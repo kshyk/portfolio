@@ -3244,9 +3244,9 @@ signal-exit@^4.0.1:
   integrity sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==
 
 simple-icons@^13.0.0:
-  version "13.14.0"
-  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-13.14.0.tgz#5b6d9eaf739b4a55d3ece0548247b5ba69621d65"
-  integrity sha512-eUl/xnY9/BN/UPthZYi5tPQtHFxbqxO0lS/nMaG2QJAXRzXqLWnQHoJZdrV4+TZ2tb7JO3qqFCkg8UVVgTuKOQ==
+  version "13.14.1"
+  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-13.14.1.tgz#12f47b4c997b68816541350f770b15e22e68745f"
+  integrity sha512-Syxm5ZpLgfePbZ8TXoOgiazaUqutE48eXhY8Mix2vK0uPji2rl+A2XG/sEyPBwIVj0tZeXuWolyTtMURASswTg==
 
 source-map-js@^1.0.2:
   version "1.2.0"
