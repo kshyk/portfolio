@@ -1,4 +1,5 @@
 import * as icons from 'simple-icons';
+import React, { JSX } from 'react';
 
 interface Props {
   icon: string;
