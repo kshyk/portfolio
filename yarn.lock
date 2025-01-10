@@ -2650,10 +2650,10 @@ lru-cache@^10.2.0:
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.4.3.tgz#410fc8a17b70e598013df257c2446b7f3383f119"
   integrity sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==
 
-lucide-react@^0.470.0:
-  version "0.470.0"
-  resolved "https://registry.yarnpkg.com/lucide-react/-/lucide-react-0.470.0.tgz#749519851b121d0ec2cd7454340bf90b9bfdaa15"
-  integrity sha512-tqYODeoB3qU5gxH33IbL7IcF05EYYzsZQJqdM9HGGHwmoJMPvVLPHO6Plu6HNAfntucZQ41taEw6aUpwOtaoXg==
+lucide-react@^0.471.0:
+  version "0.471.0"
+  resolved "https://registry.yarnpkg.com/lucide-react/-/lucide-react-0.471.0.tgz#22b0966f2f9953e75387c7f5b2c95f5459b4c51e"
+  integrity sha512-3L0OOJClsKDETJGK7nABqW8ftaVmUjWzluzPpw/6dGdI1bOmzsLsCjZpAEpg24Xs/U7xdYveQU+CBkHxWy7MrA==
 
 meow@^12.0.1:
   version "12.1.1"
