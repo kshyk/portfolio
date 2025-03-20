@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/git,node,linux,macos,intellij+all,yarn
-# Edit at https://www.toptal.com/developers/gitignore?templates=git,node,linux,macos,intellij+all,yarn
+# Created by https://www.toptal.com/developers/gitignore/api/git,node,yarn,linux,macos,intellij+all
+# Edit at https://www.toptal.com/developers/gitignore?templates=git,node,yarn,linux,macos,intellij+all
 
 ### Git ###
 # Created by git for backups. To disable backups in Git:
@@ -308,4 +308,4 @@ dist
 # and uncomment the following lines
 # .pnp.*
 
-# End of https://www.toptal.com/developers/gitignore/api/git,node,linux,macos,intellij+all,yarn
+# End of https://www.toptal.com/developers/gitignore/api/git,node,yarn,linux,macos,intellij+all
