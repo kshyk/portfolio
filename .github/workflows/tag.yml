@@ -5,6 +5,10 @@ on:
     branches:
       - main
 
+permissions:
+  pull-requests: read
+  statuses: write
+
 jobs:
   bumper:
     runs-on: ubuntu-24.04
