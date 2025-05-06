@@ -40,8 +40,10 @@ export default function Contact() {
   })
 
   function onSubmit(values: z.infer<typeof formSchema>) {
-    window.location.href = `mailto:${siteConfig.email}?subject=${values.subject}&body=${values.msg}`
-    form.reset()
+    const sanitizedSubject = encodeURIComponent(values.subject);
+    const sanitizedMsg = encodeURIComponent(values.msg);
+    window.location.href = `mailto:${siteConfig.email}?subject=${sanitizedSubject}&body=${sanitizedMsg}`;
+    form.reset();
   }
 
   return (
