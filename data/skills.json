@@ -30,7 +30,7 @@
     { "name": "Git", "icon": "git" },
     { "name": "GitHub", "icon": "github" },
     { "name": "Jenkins", "icon": "jenkins" },
-    { "name": "SonarCloud", "icon": "sonarcloud" },
+    { "name": "SonarQube Cloud", "icon": "sonarqubecloud" },
     { "name": "Renovate", "icon": "renovate" },
     { "name": "Dependabot", "icon": "dependabot" }
   ],
@@ -49,5 +49,11 @@
     { "name": "Visual Studio Code", "icon": "visualstudiocode" },
     { "name": "Xcode", "icon": "xcode" },
     { "name": "Android Studio", "icon": "androidstudio" }
+  ],
+  "ai": [
+    { "name": "OpenAI", "icon": "openai" },
+    { "name": "GitHub Copilot", "icon": "githubcopilot" },
+    { "name": "Google Gemini", "icon": "googlegemini"},
+    { "name": "CodeRabbit", "icon": "coderabbit"}
   ]
 }

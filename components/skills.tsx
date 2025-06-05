@@ -13,10 +13,11 @@ interface SkillsData {
   technologies: Skill[];
   os: Skill[];
   editors: Skill[];
+  ai: Skill[];
 }
 
 export default function Skills() {
-  const { languages, technologies, os, editors } = skillsData as SkillsData;
+  const { languages, technologies, os, editors, ai } = skillsData as SkillsData;
 
   return (
     <div className="w-full mx-auto md:w-[40vw]">
@@ -69,6 +70,18 @@ export default function Skills() {
               <SimpleIcon icon={editor.icon} size={24} />
               <p className="text-sm text-muted-foreground mt-2">{editor.name}</p>
             </div>
+          ))}
+          <Separator className="mt-1" />
+        </CardContent>
+        <CardHeader className="p-0 pb-6 px-6">
+          <CardTitle>AI</CardTitle>
+        </CardHeader>
+        <CardContent className="gap-4 flex justify-center flex-wrap min-h-0">
+          {ai.map((ai) => (
+              <div key={ai.name} className="flex flex-col items-center">
+                <SimpleIcon icon={ai.icon} size={24} />
+                <p className="text-sm text-muted-foreground mt-2">{ai.name}</p>
+              </div>
           ))}
         </CardContent>
       </Card>
