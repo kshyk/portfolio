@@ -5,8 +5,8 @@ import Link from "next/link"
 import { Button } from "./ui/button"
 import { ThemeToggler } from "./theme-toggler"
 import { SimpleIcon } from "./simple-icons"
-import { DownloadIcon } from "@radix-ui/react-icons"
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
+import React from "react";
 
 type CardProps = React.ComponentProps<typeof Card>
 
@@ -23,13 +23,13 @@ export default function Hero({ className, ...props }: CardProps) {
             <AvatarFallback>{siteConfig.name[0]}</AvatarFallback>
           </Avatar>
           <div>
-            <CardTitle 
+            <CardTitle
               className="scroll-m-20 text-3xl font-extrabold tracking-tight lg:text-4xl"
             >
               {siteConfig.name}
             </CardTitle>
             <CardDescription>
-              {siteConfig.description} @ 
+              {siteConfig.description} @
               <Link href={siteConfig.links.company} target="_blank" rel="noopener noreferrer" className="hover:underline">
                 {siteConfig.company}
               </Link>
@@ -58,7 +58,7 @@ export default function Hero({ className, ...props }: CardProps) {
             <div className="flex gap-2">
               <SimpleIcon icon={"canva"} size={20} /> Resume
             </div>
-          </Link> 
+          </Link>
         </Button>
       </div>
       </CardContent>

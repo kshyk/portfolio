@@ -1,4 +1,5 @@
 export const siteConfig = {
+  project: "Portfolio",
   name: "Jakub Turkiewicz",
   description: "Principal Automation QA Architect",
   company: "Beekeeper",
