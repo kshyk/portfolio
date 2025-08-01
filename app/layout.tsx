@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 import Footer from '@/components/footer'
 import { siteConfig } from '@/config/site'
 import { Analytics } from '@vercel/analytics/react';
+import React from "react";
 
 export const metadata: Metadata = {
   title: siteConfig.name,
