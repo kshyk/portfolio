@@ -2160,12 +2160,13 @@ __metadata:
   linkType: hard
 
 "@vercel/analytics@npm:^1.5.0":
-  version: 1.5.0
-  resolution: "@vercel/analytics@npm:1.5.0"
+  version: 1.6.0
+  resolution: "@vercel/analytics@npm:1.6.0"
   peerDependencies:
     "@remix-run/react": ^2
     "@sveltejs/kit": ^1 || ^2
     next: ">= 13"
+    nuxt: ">= 3"
     react: ^18 || ^19 || ^19.0.0-rc
     svelte: ">= 4"
     vue: ^3
@@ -2185,7 +2186,7 @@ __metadata:
       optional: true
     vue-router:
       optional: true
-  checksum: 10c0/43d33ea83b32f5203fec21b7f43c399e398f0c37d2dd341d522969e0e6ee23fd652a2766a4203a3ce573f711beee5ee1ab7d36316f767a4901160e3e96ee31e5
+  checksum: 10c0/123c6eb13cec1035276bc1406e75c58b2959ba3ad409374bd675318293da407880d7eef9b90190ed90c27017c15ba24b2602816753bf42dbdd03b73a808ee234
   languageName: node
   linkType: hard
 
