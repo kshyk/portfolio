@@ -5026,7 +5026,7 @@ __metadata:
     react: "npm:^19.1.0"
     react-dom: "npm:^19.1.0"
     react-hook-form: "npm:^7.56.2"
-    simple-icons: "npm:^15.0.0"
+    simple-icons: "npm:^16.0.0"
     tailwind-merge: "npm:^3.2.0"
     tailwindcss: "npm:^4.1.5"
     tailwindcss-animate: "npm:^1.0.7"
@@ -5609,10 +5609,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"simple-icons@npm:^15.0.0":
-  version: 15.22.0
-  resolution: "simple-icons@npm:15.22.0"
-  checksum: 10c0/95dfe576ccdccfffffc882f7880280a99639d729de358435d53701e1a9f6698bf003f71a70ab609fbe1b533fca7f708a7fd4f42c0ad98b9f3c3e65c31de883e0
+"simple-icons@npm:^16.0.0":
+  version: 16.2.0
+  resolution: "simple-icons@npm:16.2.0"
+  checksum: 10c0/413007132c646e0b5b88d879974e68224a939e44fa8a2ca0a879a1e0fe7b23768ded3ca7fb3084204e47aebff00e7c9cb800825bcd41f575baa0d60906c2382d
   languageName: node
   linkType: hard
 
