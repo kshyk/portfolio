@@ -5610,9 +5610,9 @@ __metadata:
   linkType: hard
 
 "simple-icons@npm:^16.0.0":
-  version: 16.3.0
-  resolution: "simple-icons@npm:16.3.0"
-  checksum: 10c0/1435b17065d6208f433d9673086013fc8833b083e74828e31515ac793710e9bd055690e56a1d5c4ee56615c8d27a607218f75476ae4d9f49f360145beebc99d0
+  version: 16.4.0
+  resolution: "simple-icons@npm:16.4.0"
+  checksum: 10c0/96c86c0b510d98edd0998532240b9f7aa88db87eda6bce2fe9e4dfaebeda80ba5c73810e47818f54aca94fb8d4392a270b0ad6730643eb0c9518f536fb468ff9
   languageName: node
   linkType: hard
 
