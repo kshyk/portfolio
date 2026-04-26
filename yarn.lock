@@ -5526,9 +5526,9 @@ __metadata:
   linkType: hard
 
 "simple-icons@npm:^16.0.0":
-  version: 16.17.0
-  resolution: "simple-icons@npm:16.17.0"
-  checksum: 10c0/5ee0eee3b9bed152eda74eb3ee751b6e9a8d97fb536789a7f5d551c162ff44494a4fde1350fb445aa1dcc0b1edb458529c83e9f05aa67f16408800760c15530e
+  version: 16.18.0
+  resolution: "simple-icons@npm:16.18.0"
+  checksum: 10c0/c4ec34c0f0efe335f09dce144bb005103fd04b748d124f4e113e6d2c85dbb3b135665e272b46ff8496ef4e248bd6767aedc6d632b35de852fc8108cf9dc2d8b4
   languageName: node
   linkType: hard
 
