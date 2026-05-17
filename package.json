@@ -43,7 +43,7 @@
     "husky": "^9.1.7",
     "postcss": "^8.5.3",
     "tailwindcss": "^4.1.5",
-    "typescript": "^5.8.3"
+    "typescript": "^6.0.0"
   },
   "packageManager": "yarn@4.14.1"
 }
