@@ -12,6 +12,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@autonoma-ai/sdk@npm:0.2.5, @autonoma-ai/sdk@npm:^0.2.5":
+  version: 0.2.5
+  resolution: "@autonoma-ai/sdk@npm:0.2.5"
+  peerDependencies:
+    zod: ^3.23.0 || ^4.0.0
+  checksum: 10c0/e3a4efdcf758133253d24209d4c2175929551826f3fefd26b148fc798aaaf6fd64309da3044231b6fdc520acca52a537560b75919cb9d9eefa33ff634bc8a15b
+  languageName: node
+  linkType: hard
+
+"@autonoma-ai/server-web@npm:^0.2.5":
+  version: 0.2.5
+  resolution: "@autonoma-ai/server-web@npm:0.2.5"
+  dependencies:
+    "@autonoma-ai/sdk": "npm:0.2.5"
+  checksum: 10c0/f44715a637f99aed325cd419d0efe6bfc3d44c28677515031643cd527586a8400046e7bef1b0de1f7185280c2786e4ba282c3b719e3692c29135f04dafb1aaba
+  languageName: node
+  linkType: hard
+
 "@babel/code-frame@npm:^7.0.0":
   version: 7.26.2
   resolution: "@babel/code-frame@npm:7.26.2"
@@ -4840,6 +4858,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "portfolio@workspace:."
   dependencies:
+    "@autonoma-ai/sdk": "npm:^0.2.5"
+    "@autonoma-ai/server-web": "npm:^0.2.5"
     "@commitlint/cli": "npm:^21.0.0"
     "@commitlint/config-conventional": "npm:^21.0.0"
     "@hookform/resolvers": "npm:^5.0.1"

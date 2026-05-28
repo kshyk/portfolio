@@ -1,0 +1,61 @@
+{
+  "features": [
+    {
+      "name": "Home Page",
+      "type": "page",
+      "path": "/",
+      "core": true
+    },
+    {
+      "name": "Hero Section",
+      "type": "component",
+      "path": "/components/hero.tsx",
+      "core": true
+    },
+    {
+      "name": "Skills Section",
+      "type": "component",
+      "path": "/components/skills.tsx",
+      "core": true
+    },
+    {
+      "name": "Projects Section",
+      "type": "component",
+      "path": "/components/projects.tsx",
+      "core": true
+    },
+    {
+      "name": "Contact Form",
+      "type": "component",
+      "path": "/components/contact.tsx",
+      "core": false
+    },
+    {
+      "name": "Theme Toggler",
+      "type": "component",
+      "path": "/components/theme-toggler.tsx",
+      "core": false
+    },
+    {
+      "name": "Footer",
+      "type": "component",
+      "path": "/components/footer.tsx",
+      "core": false
+    },
+    {
+      "name": "Contact Form Submission",
+      "type": "flow",
+      "path": "/",
+      "core": false
+    },
+    {
+      "name": "Theme Switching",
+      "type": "flow",
+      "path": "/",
+      "core": false
+    }
+  ],
+  "total_features": 9,
+  "total_routes": 1,
+  "total_api_routes": 0
+}

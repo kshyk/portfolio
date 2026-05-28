@@ -1,0 +1,916 @@
+{
+  "version": 1,
+  "source": {
+    "discoverPath": "autonoma/discover.json",
+    "scenariosPath": "autonoma/scenarios.md"
+  },
+  "validationMode": "endpoint-lifecycle",
+  "recipes": [
+    {
+      "name": "standard",
+      "description": "Full static dataset matching the live portfolio: 1 SiteConfig, 47 skills across 5 categories, and 6 projects with embedded technologies",
+      "create": {
+        "SiteConfig": [
+          {
+            "project": "Portfolio",
+            "name": "Jakub Turkiewicz",
+            "description": "Principal Automation QA Architect",
+            "company": "Beekeeper",
+            "links": {
+              "github": "https://github.com/kshyk",
+              "linkedin": "https://www.linkedin.com/in/jakub-turkiewicz-39bb5729/",
+              "company": "https://www.beekeeper.io",
+              "cv": "https://www.canva.com/design/DAF1T4lUogI/K_oACKYcQyLVuP02YYGRrA/view"
+            },
+            "avatar": "https://avatars.githubusercontent.com/u/7526511?s=400&u=d0dde83aabfbff90ac8fe5edc828e762af72ddf9&v=4",
+            "email": "jj.turkiewicz@gmail.com"
+          }
+        ],
+        "Skill": [
+          {
+            "name": "JavaScript",
+            "icon": "javascript"
+          },
+          {
+            "name": "TypeScript",
+            "icon": "typescript"
+          },
+          {
+            "name": "Java",
+            "icon": "openjdk"
+          },
+          {
+            "name": "Python",
+            "icon": "python"
+          },
+          {
+            "name": "Swift",
+            "icon": "swift"
+          },
+          {
+            "name": "Kotlin",
+            "icon": "kotlin"
+          },
+          {
+            "name": "Groovy",
+            "icon": "apachegroovy"
+          },
+          {
+            "name": "GNU Bash",
+            "icon": "gnubash"
+          },
+          {
+            "name": "Bootstrap",
+            "icon": "bootstrap"
+          },
+          {
+            "name": "ESLint",
+            "icon": "eslint"
+          },
+          {
+            "name": "Prettier",
+            "icon": "prettier"
+          },
+          {
+            "name": "Yarn",
+            "icon": "yarn"
+          },
+          {
+            "name": "Markdown",
+            "icon": "markdown"
+          },
+          {
+            "name": "MySQL",
+            "icon": "mysql"
+          },
+          {
+            "name": "PostgreSQL",
+            "icon": "postgresql"
+          },
+          {
+            "name": "JUnit5",
+            "icon": "junit5"
+          },
+          {
+            "name": "Selenium",
+            "icon": "selenium"
+          },
+          {
+            "name": "Cypress",
+            "icon": "cypress"
+          },
+          {
+            "name": "TestCafe",
+            "icon": "testcafe"
+          },
+          {
+            "name": "WebdriverIO",
+            "icon": "webdriverio"
+          },
+          {
+            "name": "Firebase",
+            "icon": "firebase"
+          },
+          {
+            "name": "Gradle",
+            "icon": "gradle"
+          },
+          {
+            "name": "GitHub Actions",
+            "icon": "githubactions"
+          },
+          {
+            "name": "AWS",
+            "icon": "amazonwebservices"
+          },
+          {
+            "name": "Docker",
+            "icon": "docker"
+          },
+          {
+            "name": "Git",
+            "icon": "git"
+          },
+          {
+            "name": "GitHub",
+            "icon": "github"
+          },
+          {
+            "name": "Jenkins",
+            "icon": "jenkins"
+          },
+          {
+            "name": "SonarQube Cloud",
+            "icon": "sonarqubecloud"
+          },
+          {
+            "name": "Renovate",
+            "icon": "renovate"
+          },
+          {
+            "name": "Dependabot",
+            "icon": "dependabot"
+          },
+          {
+            "name": "macOS",
+            "icon": "macos"
+          },
+          {
+            "name": "Linux",
+            "icon": "linux"
+          },
+          {
+            "name": "Linux Mint",
+            "icon": "linuxmint"
+          },
+          {
+            "name": "Ubuntu",
+            "icon": "ubuntu"
+          },
+          {
+            "name": "Alpine Mint",
+            "icon": "alpinelinux"
+          },
+          {
+            "name": "Windows",
+            "icon": "windows"
+          },
+          {
+            "name": "iOS",
+            "icon": "ios"
+          },
+          {
+            "name": "Android",
+            "icon": "android"
+          },
+          {
+            "name": "IntelliJ IDEA",
+            "icon": "intellijidea"
+          },
+          {
+            "name": "Visual Studio Code",
+            "icon": "visualstudiocode"
+          },
+          {
+            "name": "Xcode",
+            "icon": "xcode"
+          },
+          {
+            "name": "Android Studio",
+            "icon": "androidstudio"
+          },
+          {
+            "name": "OpenAI",
+            "icon": "openai"
+          },
+          {
+            "name": "GitHub Copilot",
+            "icon": "githubcopilot"
+          },
+          {
+            "name": "Google Gemini",
+            "icon": "googlegemini"
+          },
+          {
+            "name": "CodeRabbit",
+            "icon": "coderabbit"
+          }
+        ],
+        "Project": [
+          {
+            "name": "Portfolio",
+            "description": "About me and my projects",
+            "repository": "https://github.com/kshyk/portfolio",
+            "demo": "https://kshyk.github.io/portfolio/"
+          },
+          {
+            "name": "API Testing Framework",
+            "description": "Collection of automated tests for API endpoints using REST Assured framework",
+            "repository": "https://github.com/kshyk/api-tests",
+            "demo": "https://github.com/kshyk/api-tests/actions/workflows/main.yml"
+          },
+          {
+            "name": "Cypress Testing Framework",
+            "description": "Collection of automated tests for web applications using CypressIO framework",
+            "repository": "https://github.com/kshyk/cypress-fw",
+            "demo": "https://github.com/kshyk/cypress-fw/actions/workflows/main.yml"
+          },
+          {
+            "name": "Playwright Testing Framework",
+            "description": "Collection of automated tests for web applications using MS Playwright framework",
+            "repository": "https://github.com/kshyk/playwright-fw",
+            "demo": "https://github.com/kshyk/playwright-fw/actions/workflows/main.yml"
+          },
+          {
+            "name": "Selenide Testing Framework",
+            "description": "Collection of automated tests for web applications using Selenide framework",
+            "repository": "https://github.com/kshyk/selenium-fw",
+            "demo": "https://github.com/kshyk/selenium-fw/actions/workflows/main.yml"
+          },
+          {
+            "name": "TestCafe Testing Framework",
+            "description": "Collection of automated tests for web applications using TestCafe framework",
+            "repository": "https://github.com/kshyk/testcafe-fw",
+            "demo": "https://github.com/kshyk/testcafe-fw/actions/workflows/main.yml"
+          }
+        ]
+      },
+      "validation": {
+        "status": "validated",
+        "method": "endpoint-up-down",
+        "phase": "ok",
+        "up_ms": 39,
+        "down_ms": 5
+      }
+    },
+    {
+      "name": "empty",
+      "description": "Zero data for empty state and onboarding testing -- verifies the page renders gracefully when data files are empty",
+      "create": {
+        "SiteConfig": [],
+        "Skill": [],
+        "Project": []
+      },
+      "validation": {
+        "status": "validated",
+        "method": "endpoint-up-down",
+        "phase": "ok",
+        "up_ms": 4,
+        "down_ms": 5
+      }
+    },
+    {
+      "name": "large",
+      "description": "High-volume dataset with 20 projects and 120 skills to test rendering performance, grid layout overflow, and icon-loading at scale",
+      "create": {
+        "SiteConfig": [
+          {
+            "project": "Portfolio",
+            "name": "Jakub Turkiewicz",
+            "description": "Principal Automation QA Architect",
+            "company": "Beekeeper",
+            "links": {
+              "github": "https://github.com/kshyk",
+              "linkedin": "https://www.linkedin.com/in/jakub-turkiewicz-39bb5729/",
+              "company": "https://www.beekeeper.io",
+              "cv": "https://www.canva.com/design/DAF1T4lUogI/K_oACKYcQyLVuP02YYGRrA/view"
+            },
+            "avatar": "https://avatars.githubusercontent.com/u/7526511?s=400&u=d0dde83aabfbff90ac8fe5edc828e762af72ddf9&v=4",
+            "email": "jj.turkiewicz@gmail.com"
+          }
+        ],
+        "Skill": [
+          {
+            "name": "JavaScript",
+            "icon": "javascript"
+          },
+          {
+            "name": "TypeScript",
+            "icon": "typescript"
+          },
+          {
+            "name": "Java",
+            "icon": "openjdk"
+          },
+          {
+            "name": "Python",
+            "icon": "python"
+          },
+          {
+            "name": "Swift",
+            "icon": "swift"
+          },
+          {
+            "name": "Kotlin",
+            "icon": "kotlin"
+          },
+          {
+            "name": "Groovy",
+            "icon": "apachegroovy"
+          },
+          {
+            "name": "GNU Bash",
+            "icon": "gnubash"
+          },
+          {
+            "name": "Bootstrap",
+            "icon": "bootstrap"
+          },
+          {
+            "name": "ESLint",
+            "icon": "eslint"
+          },
+          {
+            "name": "Prettier",
+            "icon": "prettier"
+          },
+          {
+            "name": "Yarn",
+            "icon": "yarn"
+          },
+          {
+            "name": "Markdown",
+            "icon": "markdown"
+          },
+          {
+            "name": "MySQL",
+            "icon": "mysql"
+          },
+          {
+            "name": "PostgreSQL",
+            "icon": "postgresql"
+          },
+          {
+            "name": "JUnit5",
+            "icon": "junit5"
+          },
+          {
+            "name": "Selenium",
+            "icon": "selenium"
+          },
+          {
+            "name": "Cypress",
+            "icon": "cypress"
+          },
+          {
+            "name": "TestCafe",
+            "icon": "testcafe"
+          },
+          {
+            "name": "WebdriverIO",
+            "icon": "webdriverio"
+          },
+          {
+            "name": "Firebase",
+            "icon": "firebase"
+          },
+          {
+            "name": "Gradle",
+            "icon": "gradle"
+          },
+          {
+            "name": "GitHub Actions",
+            "icon": "githubactions"
+          },
+          {
+            "name": "AWS",
+            "icon": "amazonwebservices"
+          },
+          {
+            "name": "Docker",
+            "icon": "docker"
+          },
+          {
+            "name": "Git",
+            "icon": "git"
+          },
+          {
+            "name": "GitHub",
+            "icon": "github"
+          },
+          {
+            "name": "Jenkins",
+            "icon": "jenkins"
+          },
+          {
+            "name": "SonarQube Cloud",
+            "icon": "sonarqubecloud"
+          },
+          {
+            "name": "Renovate",
+            "icon": "renovate"
+          },
+          {
+            "name": "Dependabot",
+            "icon": "dependabot"
+          },
+          {
+            "name": "macOS",
+            "icon": "macos"
+          },
+          {
+            "name": "Linux",
+            "icon": "linux"
+          },
+          {
+            "name": "Linux Mint",
+            "icon": "linuxmint"
+          },
+          {
+            "name": "Ubuntu",
+            "icon": "ubuntu"
+          },
+          {
+            "name": "Alpine Mint",
+            "icon": "alpinelinux"
+          },
+          {
+            "name": "Windows",
+            "icon": "windows"
+          },
+          {
+            "name": "iOS",
+            "icon": "ios"
+          },
+          {
+            "name": "Android",
+            "icon": "android"
+          },
+          {
+            "name": "IntelliJ IDEA",
+            "icon": "intellijidea"
+          },
+          {
+            "name": "Visual Studio Code",
+            "icon": "visualstudiocode"
+          },
+          {
+            "name": "Xcode",
+            "icon": "xcode"
+          },
+          {
+            "name": "Android Studio",
+            "icon": "androidstudio"
+          },
+          {
+            "name": "OpenAI",
+            "icon": "openai"
+          },
+          {
+            "name": "GitHub Copilot",
+            "icon": "githubcopilot"
+          },
+          {
+            "name": "Google Gemini",
+            "icon": "googlegemini"
+          },
+          {
+            "name": "CodeRabbit",
+            "icon": "coderabbit"
+          },
+          {
+            "name": "Ruby",
+            "icon": "ruby"
+          },
+          {
+            "name": "Go",
+            "icon": "go"
+          },
+          {
+            "name": "Rust",
+            "icon": "rust"
+          },
+          {
+            "name": "C",
+            "icon": "c"
+          },
+          {
+            "name": "C++",
+            "icon": "cplusplus"
+          },
+          {
+            "name": "C#",
+            "icon": "csharp"
+          },
+          {
+            "name": "PHP",
+            "icon": "php"
+          },
+          {
+            "name": "Perl",
+            "icon": "perl"
+          },
+          {
+            "name": "Scala",
+            "icon": "scala"
+          },
+          {
+            "name": "Haskell",
+            "icon": "haskell"
+          },
+          {
+            "name": "Elixir",
+            "icon": "elixir"
+          },
+          {
+            "name": "Dart",
+            "icon": "dart"
+          },
+          {
+            "name": "R",
+            "icon": "r"
+          },
+          {
+            "name": "Terraform",
+            "icon": "terraform"
+          },
+          {
+            "name": "Ansible",
+            "icon": "ansible"
+          },
+          {
+            "name": "Kubernetes",
+            "icon": "kubernetes"
+          },
+          {
+            "name": "Helm",
+            "icon": "helm"
+          },
+          {
+            "name": "Nginx",
+            "icon": "nginx"
+          },
+          {
+            "name": "Redis",
+            "icon": "redis"
+          },
+          {
+            "name": "MongoDB",
+            "icon": "mongodb"
+          },
+          {
+            "name": "RabbitMQ",
+            "icon": "rabbitmq"
+          },
+          {
+            "name": "Kafka",
+            "icon": "apachekafka"
+          },
+          {
+            "name": "GraphQL",
+            "icon": "graphql"
+          },
+          {
+            "name": "Prometheus",
+            "icon": "prometheus"
+          },
+          {
+            "name": "Grafana",
+            "icon": "grafana"
+          },
+          {
+            "name": "Vault",
+            "icon": "vault"
+          },
+          {
+            "name": "Consul",
+            "icon": "consul"
+          },
+          {
+            "name": "Traefik",
+            "icon": "traefik"
+          },
+          {
+            "name": "ArgoCD",
+            "icon": "argocd"
+          },
+          {
+            "name": "Debian",
+            "icon": "debian"
+          },
+          {
+            "name": "Fedora",
+            "icon": "fedora"
+          },
+          {
+            "name": "CentOS",
+            "icon": "centos"
+          },
+          {
+            "name": "Arch Linux",
+            "icon": "archlinux"
+          },
+          {
+            "name": "FreeBSD",
+            "icon": "freebsd"
+          },
+          {
+            "name": "OpenBSD",
+            "icon": "openbsd"
+          },
+          {
+            "name": "ChromeOS",
+            "icon": "googlechrome"
+          },
+          {
+            "name": "Tizen",
+            "icon": "tizen"
+          },
+          {
+            "name": "HarmonyOS",
+            "icon": "harmonyos"
+          },
+          {
+            "name": "Red Hat",
+            "icon": "redhat"
+          },
+          {
+            "name": "SUSE",
+            "icon": "suse"
+          },
+          {
+            "name": "Solaris",
+            "icon": "oracle"
+          },
+          {
+            "name": "Neovim",
+            "icon": "neovim"
+          },
+          {
+            "name": "Vim",
+            "icon": "vim"
+          },
+          {
+            "name": "Emacs",
+            "icon": "gnuemacs"
+          },
+          {
+            "name": "Sublime Text",
+            "icon": "sublimetext"
+          },
+          {
+            "name": "Atom",
+            "icon": "atom"
+          },
+          {
+            "name": "Eclipse",
+            "icon": "eclipseide"
+          },
+          {
+            "name": "NetBeans",
+            "icon": "apachenetbeans"
+          },
+          {
+            "name": "CLion",
+            "icon": "clion"
+          },
+          {
+            "name": "PyCharm",
+            "icon": "pycharm"
+          },
+          {
+            "name": "WebStorm",
+            "icon": "webstorm"
+          },
+          {
+            "name": "GoLand",
+            "icon": "goland"
+          },
+          {
+            "name": "RubyMine",
+            "icon": "rubymine"
+          },
+          {
+            "name": "DataGrip",
+            "icon": "datagrip"
+          },
+          {
+            "name": "Rider",
+            "icon": "rider"
+          },
+          {
+            "name": "Fleet",
+            "icon": "jetbrains"
+          },
+          {
+            "name": "Nova",
+            "icon": "nova"
+          },
+          {
+            "name": "Anthropic",
+            "icon": "anthropic"
+          },
+          {
+            "name": "Mistral",
+            "icon": "mistral"
+          },
+          {
+            "name": "Meta AI",
+            "icon": "meta"
+          },
+          {
+            "name": "Hugging Face",
+            "icon": "huggingface"
+          },
+          {
+            "name": "Stability AI",
+            "icon": "stability"
+          },
+          {
+            "name": "Midjourney",
+            "icon": "midjourney"
+          },
+          {
+            "name": "Cursor",
+            "icon": "cursor"
+          },
+          {
+            "name": "Tabnine",
+            "icon": "tabnine"
+          },
+          {
+            "name": "Amazon Q",
+            "icon": "amazonq"
+          },
+          {
+            "name": "Sourcegraph Cody",
+            "icon": "sourcegraph"
+          },
+          {
+            "name": "Replit AI",
+            "icon": "replit"
+          },
+          {
+            "name": "Perplexity",
+            "icon": "perplexity"
+          },
+          {
+            "name": "Cohere",
+            "icon": "cohere"
+          },
+          {
+            "name": "AI21",
+            "icon": "ai21"
+          },
+          {
+            "name": "DeepSeek",
+            "icon": "deepseek"
+          },
+          {
+            "name": "Qwen",
+            "icon": "qwen"
+          }
+        ],
+        "Project": [
+          {
+            "name": "Portfolio",
+            "description": "About me and my projects",
+            "repository": "https://github.com/kshyk/portfolio",
+            "demo": "https://kshyk.github.io/portfolio/"
+          },
+          {
+            "name": "API Testing Framework",
+            "description": "Collection of automated tests for API endpoints using REST Assured framework",
+            "repository": "https://github.com/kshyk/api-tests",
+            "demo": "https://github.com/kshyk/api-tests/actions/workflows/main.yml"
+          },
+          {
+            "name": "Cypress Testing Framework",
+            "description": "Collection of automated tests for web applications using CypressIO framework",
+            "repository": "https://github.com/kshyk/cypress-fw",
+            "demo": "https://github.com/kshyk/cypress-fw/actions/workflows/main.yml"
+          },
+          {
+            "name": "Playwright Testing Framework",
+            "description": "Collection of automated tests for web applications using MS Playwright framework",
+            "repository": "https://github.com/kshyk/playwright-fw",
+            "demo": "https://github.com/kshyk/playwright-fw/actions/workflows/main.yml"
+          },
+          {
+            "name": "Selenide Testing Framework",
+            "description": "Collection of automated tests for web applications using Selenide framework",
+            "repository": "https://github.com/kshyk/selenium-fw",
+            "demo": "https://github.com/kshyk/selenium-fw/actions/workflows/main.yml"
+          },
+          {
+            "name": "TestCafe Testing Framework",
+            "description": "Collection of automated tests for web applications using TestCafe framework",
+            "repository": "https://github.com/kshyk/testcafe-fw",
+            "demo": "https://github.com/kshyk/testcafe-fw/actions/workflows/main.yml"
+          },
+          {
+            "name": "Appium Mobile Framework",
+            "description": "Automated mobile testing suite for iOS and Android using Appium",
+            "repository": "https://github.com/kshyk/appium-fw",
+            "demo": "https://github.com/kshyk/appium-fw/actions/workflows/main.yml"
+          },
+          {
+            "name": "Detox React Native Tests",
+            "description": "End-to-end testing framework for React Native applications",
+            "repository": "https://github.com/kshyk/detox-fw",
+            "demo": "https://github.com/kshyk/detox-fw/actions/workflows/main.yml"
+          },
+          {
+            "name": "k6 Performance Framework",
+            "description": "Load testing and performance benchmarking with Grafana k6",
+            "repository": "https://github.com/kshyk/k6-fw",
+            "demo": "https://github.com/kshyk/k6-fw/actions/workflows/main.yml"
+          },
+          {
+            "name": "Artillery Load Tests",
+            "description": "Cloud-scale load testing with Artillery",
+            "repository": "https://github.com/kshyk/artillery-fw",
+            "demo": "https://github.com/kshyk/artillery-fw/actions/workflows/main.yml"
+          },
+          {
+            "name": "Robot Framework Suite",
+            "description": "Keyword-driven acceptance testing with Robot Framework",
+            "repository": "https://github.com/kshyk/robot-fw",
+            "demo": "https://github.com/kshyk/robot-fw/actions/workflows/main.yml"
+          },
+          {
+            "name": "Karate API Tests",
+            "description": "BDD-style API testing with Karate DSL",
+            "repository": "https://github.com/kshyk/karate-fw",
+            "demo": "https://github.com/kshyk/karate-fw/actions/workflows/main.yml"
+          },
+          {
+            "name": "Gatling Performance Suite",
+            "description": "Scala-based performance testing with Gatling",
+            "repository": "https://github.com/kshyk/gatling-fw",
+            "demo": "https://github.com/kshyk/gatling-fw/actions/workflows/main.yml"
+          },
+          {
+            "name": "Puppeteer Scraping Tests",
+            "description": "Browser automation and scraping tests with Puppeteer",
+            "repository": "https://github.com/kshyk/puppeteer-fw",
+            "demo": "https://github.com/kshyk/puppeteer-fw/actions/workflows/main.yml"
+          },
+          {
+            "name": "Nightwatch E2E Tests",
+            "description": "End-to-end browser testing with Nightwatch.js",
+            "repository": "https://github.com/kshyk/nightwatch-fw",
+            "demo": "https://github.com/kshyk/nightwatch-fw/actions/workflows/main.yml"
+          },
+          {
+            "name": "Vitest Unit Framework",
+            "description": "Unit and integration testing with Vitest",
+            "repository": "https://github.com/kshyk/vitest-fw",
+            "demo": "https://github.com/kshyk/vitest-fw/actions/workflows/main.yml"
+          },
+          {
+            "name": "Jest Testing Suite",
+            "description": "Comprehensive unit testing with Jest",
+            "repository": "https://github.com/kshyk/jest-fw",
+            "demo": "https://github.com/kshyk/jest-fw/actions/workflows/main.yml"
+          },
+          {
+            "name": "Storybook Component Tests",
+            "description": "Visual component testing with Storybook",
+            "repository": "https://github.com/kshyk/storybook-fw",
+            "demo": "https://github.com/kshyk/storybook-fw/actions/workflows/main.yml"
+          },
+          {
+            "name": "Pact Contract Tests",
+            "description": "Consumer-driven contract testing with Pact",
+            "repository": "https://github.com/kshyk/pact-fw",
+            "demo": "https://github.com/kshyk/pact-fw/actions/workflows/main.yml"
+          },
+          {
+            "name": "WebdriverIO Mobile Suite",
+            "description": "Cross-platform mobile automation with WebdriverIO",
+            "repository": "https://github.com/kshyk/wdio-mobile-fw",
+            "demo": "https://github.com/kshyk/wdio-mobile-fw/actions/workflows/main.yml"
+          }
+        ]
+      },
+      "validation": {
+        "status": "validated",
+        "method": "endpoint-up-down",
+        "phase": "ok",
+        "up_ms": 7,
+        "down_ms": 6
+      }
+    }
+  ]
+}
