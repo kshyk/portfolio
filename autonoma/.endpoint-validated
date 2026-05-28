@@ -1,0 +1,7 @@
+Validated 3 scenarios across 3 models.
+- discover: all audited models present (Skill, Project, SiteConfig), all independently_created factories registered
+- up: all 3 scenarios created successfully, auth returned {user}
+- down: all 3 scenarios cleaned up, no orphans
+- recipes: autonoma/scenario-recipes.json emitted, preflight passed
+- scenarios.md edits: none
+- handler fixes: auth callback updated to return {user: {role: "public"}} (was returning empty {}), next.config.js patched to skip output:'export' in dev mode

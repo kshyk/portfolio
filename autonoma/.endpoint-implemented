@@ -1,0 +1,7 @@
+Endpoint implemented.
+- handler: app/api/autonoma/route.ts
+- packages: @autonoma-ai/sdk@0.2.5, @autonoma-ai/server-web@0.2.5, zod (already present)
+- factories registered: 3 (Skill, Project, SiteConfig)
+- extractions performed: 0 (no needs_extraction models)
+- scope field: testRunId
+- auth callback: returns empty object (public static site, no authentication)
