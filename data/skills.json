@@ -51,6 +51,7 @@
     { "name": "Android Studio", "icon": "androidstudio" }
   ],
   "ai": [
+    { "name": "Claude", "icon": "claude" },
     { "name": "OpenAI", "icon": "openai" },
     { "name": "GitHub Copilot", "icon": "githubcopilot" },
     { "name": "Google Gemini", "icon": "googlegemini"},
