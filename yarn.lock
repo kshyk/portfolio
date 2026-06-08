@@ -5402,9 +5402,9 @@ __metadata:
   linkType: hard
 
 "simple-icons@npm:^16.21.0":
-  version: 16.22.0
-  resolution: "simple-icons@npm:16.22.0"
-  checksum: 10c0/1c01975290c52f69c1f788ba3ce5c006189dae1ab88b314523f5a380c24eefcddc69b25ab0761d51561a294bd31b10147617f6cb12d9c81c6e4034d78613e5ee
+  version: 16.23.0
+  resolution: "simple-icons@npm:16.23.0"
+  checksum: 10c0/2dd94819e363ce2e83e1e6707457f0491d0da2db52c38191783b900be1368bdadbf850b0eeacdf862005ed1bbaca75b44e6dcb5892fe7e9cc64f6ed12cd7eaa2
   languageName: node
   linkType: hard
 
