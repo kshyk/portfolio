@@ -6010,8 +6010,8 @@ __metadata:
   linkType: hard
 
 "zod@npm:^3.25.0 || ^4.0.0, zod@npm:^4.0.0":
-  version: 4.5.1
-  resolution: "zod@npm:4.5.1"
-  checksum: 10c0/3ea10ef9366fa79e9b89bafadb223183ef080b46b5d6e4fe5b7012dce79a38b832c4a428a5098b84615d4f69eb77318c18434ee2980031f19ecee3e72678851f
+  version: 4.5.4
+  resolution: "zod@npm:4.5.4"
+  checksum: 10c0/511a2a4d1a6f875dfdd70a1586989a8b14ef126776cd6218a2c760b9f65f14ef389ec20d92ee1aa4fcb4566d4ff3fa012956044f9dc503510d82e4c756a8ba92
   languageName: node
   linkType: hard
